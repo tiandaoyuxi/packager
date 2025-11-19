@@ -1,3 +1,5 @@
+[简体中文](README_cn.md)
+
 # TurboWarp Packager
 
 https://packager.turbowarp.org/
