@@ -169,7 +169,9 @@
         "refresh": "刷新",
         "reportBug": "反馈问题",
         "sourceCode": "源代码",
-        "unknownImportError": "发生了一些问题。请刷新并重试。"
+        "unknownImportError": "发生了一些问题。请刷新并重试。",
+        "newsTitle": "新消息！",
+        "newsDescription": "默认情况下，当 Electron 应用程序最小化或隐藏时，将不再受到限制。可以选择恢复旧行为。"
     },
     "preview": {
         "loading": "加载预览"

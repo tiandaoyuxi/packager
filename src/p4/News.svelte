@@ -1,4 +1,5 @@
 <script>
+  import {_} from '../locales/';
   import Section from './Section.svelte';
   const color = '#b117f8';
 </script>
@@ -14,13 +15,12 @@
 </style>
 
 <Section accent={color}>
-  <div lang="en">
+  <div>
     <p>
-      <span class="badge">New!</span>
+      <span class="badge">{$_('p4.newsTitle')}</span>
     </p>
     <p>
-      By default, Electron apps will no longer be throttled when minimized or hidden.
-      There is an option to restore the old behavior.
+      {$_('p4.newsDescription')}
     </p>
   </div>
 </Section>

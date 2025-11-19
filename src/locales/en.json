@@ -83,6 +83,12 @@
     "documentation": {
       "string": "Additional resources and help",
       "developer_comment": "Link to a place with additional information describing advanced topics"
+    },
+    "newsTitle": {
+      "string": "New!"
+    },
+    "newsDescription": {
+      "string": "By default, Electron apps will no longer be throttled when minimized or hidden. There is an option to restore the old behavior."
     }
   },
   "progress": {
