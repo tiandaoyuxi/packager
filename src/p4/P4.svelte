@@ -131,6 +131,15 @@
 <Modals bind:modalVisible={modalVisible} />
 
 <main aria-hidden={modalVisible} class:is-not-safari={!isSafari}>
+  <Section>
+    <div>
+      <SelectTheme />
+    </div>
+    <div>
+      <SelectLocale />
+    </div>
+  </Section>
+
   <Section accent={ACCENT_COLOR}>
     <div>
       <h1>{APP_NAME}</h1>
@@ -237,12 +246,6 @@
     </div>
     <div>
       <a href="https://docs.turbowarp.org/packager">{$_('p4.documentation')}</a>
-    </div>
-    <div>
-      <SelectTheme />
-    </div>
-    <div>
-      <SelectLocale />
     </div>
   </footer>
 </main>
